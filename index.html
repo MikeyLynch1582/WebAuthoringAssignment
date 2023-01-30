@@ -2,16 +2,23 @@
 <html>
 <head>
 <meta charset="utf-8">
-
+<style>
+	#wrapper 	{ 	
+					border: 5px outset red;
+ 				 	background-color: lightblue;
+  					text-align: center;
+				}
+	
+	
+</style>
 
 <title>Introduction to HTML by Mikey Lynch</title>
-<link href="CSS-Cascading Style Sheets.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	
+<div id="wrapper">
 <header>
-<h1>Introduction to HTML by Mikey Lynch</h1>
+  <h1>Introduction to HTML by Mikey Lynch</h1>
 </header>
 	
 <h2>Doctype</h2>
@@ -19,8 +26,7 @@
 		<p>This is the where we distinguish the type of coding language we are using in our source code.</p>
 	<h3>Example of code</h3>
 		<p>&lt;!doctype html&gt;</p>
-	<h3>Working exmaple</h3>
-		<p>Working exmaple</p>
+	<h3>Working example</h3>
 	
 <h2>html</h2>
 	<h3>Description</h3>
@@ -33,7 +39,7 @@
 		<p>The head is a container of metadata and is placed between the html tag and the body tag in a websites coding.</p>
 	<h3>Example of code</h3>
 		<p>&lt;head&gt;&lt;/head&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p><head>This is the head</head></p>
 
 <h2>body</h2>
@@ -41,7 +47,7 @@
 		<p>The body is the main part of the creation of a website. This is where all of the content of the website is coded in. </p>
 	<h3>Example of code</h3>
 		<p>&lt;body&gt;&lt;/body&gt;</p>
-	<h3>Working exmaple</h3>
+	
 		
 	
 <h2>title</h2>
@@ -49,7 +55,7 @@
 		<p>The title is the main name of our website which will be used as the name of the tab we have open obn</p>
 	<h3>Example of code</h3>
 		<p>&lt;title&gt;&lt;/title&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p><title>This is a title</title></p>
 	
 <h2>p</h2>
@@ -57,7 +63,7 @@
 		<p>P is a tag in html which inputs a paragraph into the source code of a website.</p>
 	<h3>Example of code</h3>
 		<p>&lt;p&gt;&lt;/p&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p><p>This is a paragraph</p></p>
 
 <h2>span</h2>
@@ -65,7 +71,7 @@
 		<p>Span tag is a generic inline container element. Span tags usually wrap sections of text for styling purposes or for adding attributes to a section of text without creating a new line of content.</p>
 <h3>Example of code</h3>
 		<p>My mother has &lt;span style=&quot;color:blue&quot;&gt;blue&lt;/span&gt; eyes.</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
 <h2>div</h2>
@@ -73,9 +79,9 @@
 <p>Div is a speical element in html that lets you group similar sets of content together on a web page.</p>
 <h3>Example of code</h3>
 		<p>&lt;div class=&quot;myDiv&quot;&gt;<br>
-&lt;h2&gt; This is a heading in a div element.&lt;/h2&gt;<br>
+			&lt;h2&gt; This is a heading in a div element.&lt;/h2&gt;<br>
 &lt;p&gt;This is a paragraph in a div element.&lt;/p&gt;<br>&lt;/div&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p> <div class="myDiv">
 				<h2> This is a heading in a div element.</h2>
 				<p>This is a paragraph in a div element.</p> </div>	
@@ -86,7 +92,7 @@
 		<p>The h1 tag is an element used to define the main heading of a web page in html.</p>
 <h3>Example of code</h3>
 		<p>&lt;h1&gt;This is a heading 1.&lt;/h1&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<h1>This is a heading 1.</h1>
 
 <h2>h2</h2> 
@@ -94,7 +100,7 @@
 <p>The h2 tag is an element used to define a level 2 heading of a web page in html.</p>
 <h3>Example of code</h3>
 		<p>&lt;h2&gt;This is a heading 2.&lt;/h2&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<h2>This is a heading 2.</h2>
 
 <h2>h3</h2>
@@ -102,7 +108,7 @@
 <p>The h3 tag is an element used to define a level 3 heading of a web page in html.</p>
 <h3>Example of code</h3>
 		<p>&lt;h3&gt;This is a heading 3.&lt;/h3&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<h3>This is a heading 3.</h3>
 
 <h2>h4</h2>
@@ -110,7 +116,7 @@
 <p>The h4 tag is an element used to define a level 4 heading of a web page in html.</p>
 <h3>Example of code</h3>
 		<p>&lt;h4&gt;This is a heading 4.&lt;/h4&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<h4>This is a heading 4.</h4>
 
 <h2>h5</h2> 
@@ -118,7 +124,7 @@
 <p>The h5 tag is an element used to define a level 5 heading of a web page in html.</p>
 <h3>Example of code</h3>
 		<p>&lt;h5&gt;This is a heading 5.&lt;/h5&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<h5>This is a heading 5.</h5>
 
 <h2>h6</h2>
@@ -126,7 +132,7 @@
 <p>The h6 tag is an element used to define a level 6 heading of a web page in html.</p>
 <h3>Example of code</h3>
 		<p>&lt;h6&gt;This is a heading 6.&lt;/h6&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<h6>This is a heading 6.</h6>
 
 <h2>strong</h2>
@@ -134,7 +140,7 @@
 <p>The strong element selects important text and displays it as bold.</p>
 <h3>Example of code</h3>
 		<p>&lt;strong&gt;This text is important!&lt;/strong&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p><strong>This text is important!</strong></p>
 
 <h2>emphasis</h2>
@@ -144,7 +150,7 @@
 		<p>&lt;p&gt;In HTML 5, what was previously called<br>
 		&lt;em&gt;block-level&lt;/em&gt; content is now called<br>
 		&lt;em&gt;flow&lt;/em&gt; content.&lt;/p&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>In HTML 5, what was previously called
   		<em>block-level</em> content is now called
 <em>flow</em> content.</p>
@@ -170,7 +176,7 @@
 		      &lt;td&gt;Mexico&lt;/td&gt;<br>
 		    &lt;/tr&gt;<br>
 	    &lt;/table&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 	<table>
  	 <tr>
    		<th>Company</th>
@@ -194,7 +200,7 @@
 <p>The caption tag defines the title of a table in the HTML document.</p>
 <h3>Example of code</h3>
 		<p> &lt;caption&gt;Monthly savings&lt;/caption&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<table>
  		 <caption>Monthly savings</caption>
   		<tr>
@@ -209,6 +215,8 @@
 
 
 <h2>lists</h2>
+	
+	<h3>Unordered List</h3>
 	<h3>Description</h3>
 <p>Lists in HTML are used to specify lists of information. all lists may contain one or more list elements. The li element is used to define a list item.</p>
 <h3>Example of code</h3>
@@ -216,7 +224,7 @@
 		&lt;li&gt;An item&lt;/li&gt;<br>
 		&lt;li&gt;Another item&lt;/li&gt;<br>
 		&lt;/ul&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>
 			<ul>
        			<li>An item</li>
@@ -224,12 +232,42 @@
    			</ul>	
 		</p>
 
+		<h3>Ordered Lists</h3>
+  <h3>Example of Code</h3>
+  <p>&lt;ol&gt;<br>
+			&lt;li&gt;Coffee&lt;/li&gt;<br>
+			&lt;li&gt;Tea&lt;/li&gt;<br>
+			&lt;li&gt;Milk&lt;/li&gt;<br>
+  &lt;/ol&gt;</p>
+		<h3>Working Example</h3>
+  <ol>
+ 				<li>Coffee</li>
+  				<li>Tea</li>
+  				<li>Milk</li>
+  </ol>
+
+  <h3>Descriptive List</h3>
+ 			 <h3>Example of Code</h3>
+				<p>&lt;dl&gt;<br>
+				    &lt;dt&gt;Coffee&lt;/dt&gt;<br>
+				    &lt;dd&gt;- black hot drink&lt;/dd&gt;<br>
+				    &lt;dt&gt;Milk&lt;/dt&gt;<br>
+				    &lt;dd&gt;- white cold drink&lt;/dd&gt;<br>
+			    	&lt;/dl&gt;</p>
+			<h3>Working Example</h3>
+				<dl>
+  					<dt>Coffee</dt>
+  						<dd>- black hot drink</dd>
+  					<dt>Milk</dt>
+ 						 <dd>- white cold drink</dd>
+				</dl>
+
 <h2>images</h2>
 	<h3>Description</h3>
 <p>The img tag in HTML is used to embed an image in a web page.</p>
 <h3>Example of code</h3>
 		<p>&lt;img src=&quot;images/man_united.jfif&quot;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p><img src="images/man_united.jfif" alt="A Manchester United corner flag in Old Trafford"></p>
 
 <h2>Alt</h2> 
@@ -237,15 +275,15 @@
 <p>The alt tag specifies an alternative text which accompanies an image so the visually impaired now what the image is throught screen readers.</p>
 	<h3>Example of code</h3>
 		<p>alt=&quot;A Manchester United corner flag in Old Trafford&quot;&gt;</p>
-	<h3>Working exmaple</h3>
-<p><img src="images/man_united.jfif" alt="A Manchester United corner flag in Old Trafford"></p>
+	<h3>Working example</h3>
+<p><img src="images/man_united.jpeg" alt="A Manchester United corner flag in Old Trafford"></p>
 
 <h2>links</h2>
 	<h3>Description</h3>
 <p>HTML links are hyperlinks. You can click on them and jump to another document.</p>
 	<h3>Example of code</h3>
 		<p>&lt;a href=&quot;https://www.w3schools.com/&quot;&gt;Visit W3Schools.com!&lt;/a&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>
 			<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 </p>
@@ -255,7 +293,7 @@
 <p>The quotation tags in HTML is used to represent sentence or phrases which is not part of the original text and is usually referred from the external source. The quotation in HTML can be represented by blockquote, q, abbr, address, cite,and bdo tag.</p>
 	<h3>Example of code</h3>
 		<p>&lt;p&gt;WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt;/q&gt;&lt;/p&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
 
 <h2>blockquote</h2>
@@ -265,7 +303,7 @@
 		<p>&lt;blockquote cite=&quot;http://www.worldwildlife.org/who/index.html&quot;&gt;<br>
 		For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.<br>
 		&lt;/blockquote&gt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>Here is a quote from WWF's website:</p>
 		<blockquote cite="http://www.worldwildlife.org/who/index.html">
 		For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
@@ -276,7 +314,7 @@
 <p>The abbr tag is used to define an abbreviation in webpages. This tag does not have a specific style attached to it, it is a utility tag which can be used to properly show abbreviations or short form of any text.</p>
 <h3>Example of code</h3>
 		<pre>&lt;p&gt;Hello World!! You are learning &lt;abbr&gt;HTML&lt;/abbr&gt;.&lt;/p&gt; </pre>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>Hello World!! You are learning <abbr>HTML</abbr>.</p>
 
 <h2>meta</h2> 
@@ -290,7 +328,7 @@
 	      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 		</p>
 
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p> <meta charset="UTF-8">
   			<meta name="description" content="Free Web tutorials">
   			<meta name="keywords" content="HTML, CSS, JavaScript">
@@ -312,7 +350,7 @@
 		  <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_text" target="_blank">Try it Yourself »</a></div>
 		<br>
 		<p></p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<form>
   			<label for="fname">First name:</label><br>
   			<input type="text" id="fname" name="fname"><br>
@@ -326,7 +364,7 @@
 		<p></p>
 <h3>Example of code</h3>
 		<p>&amp;copy;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 <p>&copy;</p>
 
 <h2>trademark</h2>
@@ -334,7 +372,7 @@
 		<p></p>
 	<h3>Example of code</h3>
 		<p>&amp;trade;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&trade;</p>
 
 <h2>registered trademark</h2>
@@ -342,7 +380,7 @@
 		<p></p>
 	<h3>Example of code</h3>
 		<p>&amp;reg;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&reg;</p>
 
 <h2>ampersand</h2>
@@ -351,7 +389,7 @@
 	<h3>Example of code</h3>
 		<pre>&amp;amp;</pre>
 		<p></p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&amp;</p>
 
 <h2>euro</h2>
@@ -359,7 +397,7 @@
 		<p></p>
 	<h3>Example of code</h3>
 		<p>&amp;euro;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&euro;</p>
 
 <h2>non-breaking space</h2>
@@ -368,7 +406,7 @@
 	<h3>Example of code</h3>
 		<pre> &amp;nbsp;</pre>
 		<p></p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&nbsp;</p>
 
 <h2>less than</h2>
@@ -376,7 +414,7 @@
 		<p></p>
 	<h3>Example of code</h3>
 		<p>&amp;lt;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&lt;</p>
 
 <h2>greater than</h2>
@@ -384,11 +422,11 @@
 		<p></p>
 	<h3>Example of code</h3>
 		<p>&amp;#62;</p>
-	<h3>Working exmaple</h3>
+	<h3>Working example</h3>
 		<p>&#62;</p>
 
 
 <a href="css_assignment.html">CSS</a>
-
+</div>
 </body>
 </html>
